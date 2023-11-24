@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="title-text">
+            <div class="title login">LOGIN FORM</div>
+            <div class="title signup">SIGNUP FORM</div>
+        </div>
+
+
+        <div class="form-container">
+            <div class="slide-controlss">
+                <input type="radio" name="slider" id="login" checked>
+                <input type="radio" name="slider" id="signup">
+                <label for="login" class="slide login">lignup</label>
+                <label for="signup" class="slide signup">signup</label>
+                <div class="slide-tab"></div>
+            </div>
+            <div class="form-inner">
+                <form action="#" class="login">
+                    <div class="field">
+                        <input type="text" placeholder="Email ADDress" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="password" required>
+                    </div>
+                    <div class="pass-link"><a href="#">FORGOT password</a></div>
+
+                    <div class="field">
+                        <input type="SUBMIT" value="LOGIN">
+                    </div>
+                    <div class="signup-link">NOT a MEMBER <a href="#">SIgnup now</a></div>
+                </form>
+
+                <form action="#" class="signup">
+                    <div class="field">
+                        <input type="text" placeholder="Email ADDress" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="password" required>
+                    </div>
+                    <div class="field">
+                        <input type="password" placeholder="Confirm password" required>
+                    </div>
+
+                    <div class="field">
+                        <input type="SUBMIT" value="signup">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
